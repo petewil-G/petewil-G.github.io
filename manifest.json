@@ -1,0 +1,20 @@
+{
+  "short_name": "gPause",
+  "name": "gPause Meditation Timer Web App",
+  "icons": [
+    {
+      "src": "/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#d5fdd5",
+  "theme_color": "#98fb98"
+}

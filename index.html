@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+  <head>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/gpause.css">
+  </head>
+
+  <body>
+    <h1>gPause PWA</h1>
+    <br/>
+    <image src="icons-192.png"/>
+    <br/>
+    <br/>
+    <br/>
+    <button id="StartStop" class="button" onclick="handleStartStop()" value="Start">
+      Start
+    </button>
+    <br/>
+    <br/>
+    <div id="TimeDisplay" class="TimeDisplay">
+      0:00
+    </div>
+    <script src="meditation-timer.js"> </script>
+    <script src="register-sw.js" async> </script>
+  </body>
+</html>
