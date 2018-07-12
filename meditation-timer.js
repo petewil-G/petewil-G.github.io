@@ -6,8 +6,8 @@
 var startTime;
 var timer = null;
 var lastBellTime = 0;
-var THRESHOLD = 60;
-var END_THRESHOLD = 300;
+var THRESHOLD = 300;
+var END_THRESHOLD = 1200;
 
 // Handle a press of the start/stop button.
 function handleStartStop() {
